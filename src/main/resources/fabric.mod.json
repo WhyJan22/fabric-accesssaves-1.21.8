@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "accesssaves",
+	"version": "${version}",
+	"name": "AccessSaves",
+	"description": "This mod adds a button to open your save files folder.",
+	"authors": [
+		"WhyJan"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/accesssaves/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.whyjan.accesssaves.AccessSaves"
+		],
+		"fabric-datagen": [
+			"net.whyjan.accesssaves.AccessSavesDataGenerator"
+		],
+        "client":[
+            "net.whyjan.accesssaves.AccessSavesClient"
+        ]
+	},
+	"mixins": [
+		"accesssaves.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
