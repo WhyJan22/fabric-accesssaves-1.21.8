@@ -3,7 +3,7 @@
 	"id": "accesssaves",
 	"version": "${version}",
 	"name": "AccessSaves",
-	"description": "This mod adds a button to open your save files folder.",
+	"description": "This mod adds a button that opens your world saves folder.",
 	"authors": [
 		"WhyJan"
 	],
@@ -29,7 +29,7 @@
 		"accesssaves.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
+		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"

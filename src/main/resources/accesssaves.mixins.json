@@ -5,6 +5,9 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+    "client": [
+        "SelectWorldScreenMixin"
+    ],
 	"injectors": {
 		"defaultRequire": 1
 	},
